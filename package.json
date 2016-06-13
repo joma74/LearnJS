@@ -1,0 +1,8 @@
+{
+  "name": "learnjs",
+  "description": "babel ECMA2015",
+  "version": "0.0.1",
+  "devDependencies": {
+    "babel-cli": "^6.10.1"
+  }
+}
