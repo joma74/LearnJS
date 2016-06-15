@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FileDirRelativeToProjectRoot$ --source-maps --out-dir target" />
+      <option name="arguments" value="$ProjectFileDir$/src/*  --source-maps --out-dir $ProjectFileDir$/target" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Transpiles ECMAScript 6 code to ECMAScript 5" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Babel" />
-      <option name="output" value="target" />
+      <option name="output" value="$ProjectFileDir$/target" />
       <option name="outputFilters">
         <array />
       </option>
@@ -17,7 +17,7 @@
       <option name="program" value="$PROJECT_DIR$/node_modules/babel-cli/bin/babel.js" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
-      <option name="workingDir" value="$ProjectFileDir$" />
+      <option name="workingDir" value="$ProjectFileDir$/tmp" />
       <envs />
     </TaskOptions>
   </component>
