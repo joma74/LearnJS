@@ -5,8 +5,8 @@ function loadProfiles(userName){
     }else{
         let flashMessage = "Loading profiles";
     }
-    console.log(loadingMessage);
-    console.log(flashMessage); 
+    console.log(loadingMessage); // yields expected reference error
+    console.log(flashMessage);
 }
 
 loadProfiles(["Scott", "Tyler"]);
