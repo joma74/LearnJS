@@ -1,14 +1,17 @@
-function loadProfiles(userNames){
+var loadProfiles = function (userNames){
 
     const MAX_USERS = 3;
 
+    let result = "";
+
     for(let index in userNames){
         const MAX_USERS = 5;
-        console.log(userNames[index] + " is on index " + index);
-        console.log("inner MAX_USERS: " + MAX_USERS);
+        result = result + userNames[index] + " ";
     }
 
-    console.log("outer MAX_USERS: "  + MAX_USERS);
+    return result.trim();
 }
 
-loadProfiles(["Scott", "Tyler"]);
+module.exports = {
+    loadProfiles: loadProfiles
+}
