@@ -16,7 +16,8 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "mocha": "^2.5.3",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
   },
   "keywords": [
     "babel",
@@ -27,7 +28,9 @@
     "url": "https://github.com/joma74/LearnJS/issues"
   },
   "scripts": {
-    "test": "mocha --reporter spec --compilers js:babel-core/register"
+    "test": "mocha --reporter spec --compilers js:babel-core/register",
+    "build": "gulp",
+    "watch": "gulp watch"
   },
   "dependencies": {
     "babel-core": "^6.9.1"
