@@ -36,6 +36,7 @@
     "jssrv-dbxss": "json-server test/resources/db-xss.json"
   },
   "dependencies": {
-    "babel-core": "^6.9.1"
+    "babel-core": "^6.9.1",
+    "xss-filters": "^1.2.6"
   }
 }
