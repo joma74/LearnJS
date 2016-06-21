@@ -8,6 +8,10 @@ The chapters are organized _mostly_ by directories under src, whose intentional 
 2. Other chapters are purely technical ECMAScript 6 concept explorations. They are mostly a reprogram of the recommendable 
   - [es2015-the-shape-of-javascript-to-come](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come), a production of [codeschool](https://www.codeschool.com)
   - [javascript-best-practices](https://www.codeschool.com/courses/javascript-best-practices), a production of [codeschool](https://www.codeschool.com)
+  
+> To make the per npm locally installed node modules available to node and hence `package.json`, execute
+`node node_modules/.bin/npmmodulename`
+for each to-be-executeable installed module
 
 ## **forumapp**
 **forumapp** is a single-paged mostly browser-side application using/built with
@@ -23,10 +27,6 @@ The chapters are organized _mostly_ by directories under src, whose intentional 
 - promises
 
 The steps of implementing **forumapp** are tagged as steps _stp1-xxx, stp2-yyy, ..._ in git.
-
-> To make the per npm locally installed node modules available to node and hence `package.json`, execute
-`node node_modules/.bin/npmmodulename`
-for each to-be-executeable installed module
 
 ## **functions**
 TBD
