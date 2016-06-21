@@ -10,7 +10,7 @@ The chapters are organized _mostly_ by directories under src, whose intentional 
   - https://www.codeschool.com/courses/javascript-best-practices, a production of [codeschool](https://www.codeschool.com)
 
 ## **forumapp**
-**forumapp** is more of a technical concept exploration of ECMAScript 6 browser-side application using/built with
+**forumapp** is a single-paged mostly browser-side application using/built with
 - npm for dependency management, executing one-liner tasks and calling gulp
 - gulp for more complex tasks
 - babel for transpiling
