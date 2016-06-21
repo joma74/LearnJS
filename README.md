@@ -6,8 +6,8 @@ The chapters are organized _mostly_ by directories under src, whose intentional 
 
 1. **forumapp** is a single-paged browser application displaying posts from a server. It is mostly a reprogram of the recommendable [build-a-forum-web-app-with-es2015](https://www.codeschool.com/screencasts/build-a-forum-web-app-with-es2015), a production of [codeschool](https://www.codeschool.com). 
 2. Other chapters are purely technical ECMAScript 6 concept explorations. They are mostly a reprogram of the recommendable 
-  - https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come, a production of [codeschool](https://www.codeschool.com)
-  - https://www.codeschool.com/courses/javascript-best-practices, a production of [codeschool](https://www.codeschool.com)
+  - [es2015-the-shape-of-javascript-to-come](https://www.codeschool.com/courses/es2015-the-shape-of-javascript-to-come), a production of [codeschool](https://www.codeschool.com)
+  - [javascript-best-practices](https://www.codeschool.com/courses/javascript-best-practices), a production of [codeschool](https://www.codeschool.com)
 
 ## **forumapp**
 **forumapp** is a single-paged mostly browser-side application using/built with
