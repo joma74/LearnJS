@@ -32,7 +32,8 @@
     "test": "mocha --reporter spec --compilers js:babel-core/register",
     "build": "gulp",
     "watch": "gulp watch",
-    "jsonserverstart": "json-server test/resources/db.json"
+    "jssrv-db": "json-server test/resources/db.json",
+    "jssrv-dbxss": "json-server test/resources/db-xss.json"
   },
   "dependencies": {
     "babel-core": "^6.9.1"
