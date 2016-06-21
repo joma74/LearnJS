@@ -24,6 +24,10 @@ The chapters are organized _mostly_ by directories under src, whose intentional 
 
 The steps of implementing **forumapp** are tagged as steps _stp1-xxx, stp2-yyy, ..._ in git.
 
+> To make the per npm locally installed node modules available to node and hence `package.json`, execute
+`node node_modules/.bin/npmmodulename`
+for each to-be-executeable installed module
+
 ## **functions**
 TBD
 
