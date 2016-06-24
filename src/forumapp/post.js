@@ -1,22 +1,10 @@
-let Post = {
-    findAll(){
-        return new Promise((resolve, reject) => {
-            let uri = "http://localhost:3000/posts";
-            let request = new XMLHttpRequest();
-            request.open("GET", uri, true);
-            request.onload = () => {
-                if (request.status >= 200 && request.status < 400) {
-                    resolve(JSON.parse(request.response));
-                }
-            };
+import API from "./api";
 
-            request.onerror = () => {
-                reject(new Error("Something went wrong on the API"));
-            };
+let Post = { findAll };
 
-            request.send();
-        });
-    }
-};
+function findAll() {
+    
+    return API.fetch("posts");
+}
 
 export default Post;
